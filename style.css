@@ -1,0 +1,93 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: coral;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border: 2px dashed white;
+    border-radius: 15px;
+    padding: 40px;
+    min-height: 12vmax;
+    width: 25vmax;
+}
+
+form {
+    margin: 2rem 0 2rem 0;
+}
+
+.amount p {
+    font-size: 1.5rem;
+}
+
+.msg {
+    background-color: transparent;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid coral;
+    border-radius: 10px;
+}
+
+form select, button, input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid gray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rems;
+}
+
+i {
+    font-size: 1.5rem;
+    margin-top: 2.8rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    width: 6rem;
+    border: 1px solid gray;
+    border-radius: 0.75rem;
+    justify-content: center;
+    padding: 10px;
+}
+
+button {
+    background-color: coral;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 3rem;
+}
