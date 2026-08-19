@@ -3,6 +3,7 @@ My first API based project
 
 # Currency Converter 💱
 A simple currency converter built using *HTML, CSS, and JavaScript*.
+RUn live : https://shahnawaz-py.github.io/Currency_Converter/
 
 ## Features
 * Convert between different currencies
